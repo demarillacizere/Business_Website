@@ -1,0 +1,52 @@
+nav{
+    height: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: fixed;
+}
+nav  a{
+    color: black;
+}
+nav  a:hover{
+    color:orange;
+}
+.about{
+    text-align: justify;
+}
+footer{
+    background-color: rgb(248, 241, 241);
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.social li{
+    display:inline-block;
+    padding-left:20px;
+}
+.header{
+    /* background-image: linear-gradient(to right, rgba(19, 37, 53, 0.6), rgba(22, 30, 68, 0.6)),url('https://media.beam.usnews.com/33/8f/f70820f24e8e9fd76e70010efefe/140702-editorial.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:68vh;
+    width:100%;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-us{
+    background-image: linear-gradient(to right, rgba(19, 37, 53, 0.6), rgba(22, 30, 68, 0.6)),url('https://www.hiretheyouth.org/wp-content/uploads/2017/10/Youth-Apprenticeship-Program.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:52vh;
+    width:100%;
+}
+.about img{
+    border-radius:50%;
+    height:200px;
+    border: 2px solid rgb(17, 179, 228)
+}
+
