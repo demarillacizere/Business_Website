@@ -1,2 +1,1 @@
-<?php include_once("css/index.html"); ?>
-<?php include_once("css/about.html"); ?>
+<?php include_once("css/index.html","css/about.html"); ?>
