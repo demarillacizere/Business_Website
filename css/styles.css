@@ -41,7 +41,7 @@ h2,h4,h5{
     font-family: 'Permanent Marker', cursive;
 }
 .header{
-    background-image: linear-gradient(to right, rgba(19, 37, 53, 0.6), rgba(22, 30, 68, 0.6)),url('https://africa.cgtn.com/wp-content/photo-gallery/2021/06/GettyImages-1251486618.jpg');
+    background-image: linear-gradient(to right, rgba(19, 37, 53, 0.6), rgba(22, 30, 68, 0.6)),url('/images/bg1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height:68vh;
@@ -54,7 +54,7 @@ h2,h4,h5{
     font-family: 'Permanent Marker', cursive;
 }
 .about-us{
-    background-image: linear-gradient(to right, rgba(19, 37, 53, 0.6), rgba(22, 30, 68, 0.6)),url('https://www.hiretheyouth.org/wp-content/uploads/2017/10/Youth-Apprenticeship-Program.jpg');
+    background-image: linear-gradient(to right, rgba(19, 37, 53, 0.6), rgba(22, 30, 68, 0.6)),url('/images/bg2.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height:52vh;
