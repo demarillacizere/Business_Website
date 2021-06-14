@@ -79,7 +79,7 @@ button{
     color:white;
 }
 .context{
-    background: linear-gradient(100deg, #ffffff 43%, #061625 30%);
+    background: linear-gradient(100deg, #ffffff 43%, rgb(7, 36, 54) 30%);
 }
 .navbar-brand{
     font-family: 'Permanent Marker', cursive;
