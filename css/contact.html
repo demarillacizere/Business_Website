@@ -8,26 +8,28 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href='styles.css' rel="stylesheet">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm">
-            <a class="navbar-brand" href="index.html" style='color:black;'>Y E P</a>
+        <nav class="navbar navbar-expand-sm  fixed-top">
+            <a class="navbar-brand ml-5" href="index.html">YEP</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class='nav-item'><a class="nav-link"  href='index.html'>Home</a></li>
+                <ul class="navbar-nav m-auto">
+                    <li class='nav-item'><a class="nav-link"  href='/index.html'>Home</a></li>
                     <li class='nav-item'><a class="nav-link"  href='about.html'>About Us</a></li>
                     <li class='nav-item'><a class="nav-link" href='services.html'>Our services</a></li>
                     <li class='nav-item'><a class="nav-link" href='#'>Apply</a></li>
                     <li class='nav-item'><a class="nav-link" href='#'>Donate</a></li>
-                    <li class='nav-item'><a class="nav-link" href='contact.html'>Contact us</a></li>
+                    <li class='nav-item'><a class="nav-link active" href='contact.html'>Contact us</a></li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0" action="/action_page.php">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-warning" type="submit">Search</button>
+                    <button class="btn" type="submit">Search</button>
                 </form>
             </div>
             
@@ -45,33 +47,26 @@
 
         <!--Grid column-->
         <div class="col-md-10 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form id="contact-form" name="contact-form" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
 
-                    <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-2">
                             <input type="text" id="name" name="name" class="form-control">
                             <label for="name" class="">Your name</label>
                         </div>
                     </div>
-                    <!--Grid column-->
 
-                    <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-2">
                             <input type="text" id="email" name="email" class="form-control">
                             <label for="email" class="">Your email</label>
                         </div>
                     </div>
-                    <!--Grid column-->
 
                 </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-2">
@@ -80,12 +75,9 @@
                         </div>
                     </div>
                 </div>
-                <!--Grid row-->
 
-                <!--Grid row-->
                 <div class="row">
 
-                    <!--Grid column-->
                     <div class="col-md-12">
 
                         <div class="md-form">
@@ -95,7 +87,6 @@
 
                     </div>
                 </div>
-                <!--Grid row-->
 
             </form>
 
@@ -104,36 +95,38 @@
             </div>
             <div class="status"></div>
         </div>
-        <!--Grid column-->
-
+    
     </div>
-<div class="mt-5 row">
-    <ul class="list-unstyled col-md-6" style='font-size: larger;'>
-        <li><i class="fas fa-map-marker-alt fa-2x"></i> &nbsp; Kigali, KG 20 st, Rwanda
-        </li>
 
-        <li><i class="fas fa-phone mt-4 fa-2x"></i> &nbsp; +250 789 988 567
-        </li>
-
-        <li><i class="fas fa-envelope mt-4 fa-2x"></i> &nbsp; support@youthempower.com
-        </li>
-    </ul>
-    <div class='col-md-6 social'>
-        <h4  class='font-weight-bold'>Stay connected with us</h4><br>
-        <ul class="list-unstyled" style='font-size: larger;'>
-            <li><i class="fab fa-instagram fa-2x"></i>
-            </li>
-            <li><i class="fab fa-twitter fa-2x"></i>
-            </li>
-            <li><i class="fab fa-facebook fa-2x"></i>
-            </li><li><i class="fab fa-linkedin fa-2x"></i>
-            </li>
-
-        </ul>
-    </div>
-</div>
             </div>
             <div class='col-md-3'></div>
+        </div>
+        <div class="mt-5 row contact-us pt-5 pb-5">
+            <div class='col-md-3'></div>
+            <ul class="list-unstyled col-md-4" style='font-size: larger;'>
+                <li><i class="fas fa-map-marker-alt fa-2x"></i> &nbsp; Kigali, KG 20 st, Rwanda
+                </li>
+        
+                <li><i class="fas fa-phone mt-4 fa-2x"></i> &nbsp; +250 789 988 567
+                </li>
+        
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i> &nbsp; support@youthempower.com
+                </li>
+            </ul>
+            <div class='col-md-4 social'>
+                <h4  class='font-weight-bold'>Stay connected with us</h4><br>
+                <ul class="list-unstyled" style='font-size: larger;'>
+                    <li><a href='http://instagram.com' target='_blank'><i class="fab fa-instagram fa-2x"></i></a>
+                    </li>
+                    <li><a href='http://twitter.com' target='_blank'><i class="fab fa-twitter fa-2x"></i></a>
+                    </li>
+                    <li><a href='http://facebook.com' target='_blank'><i class="fab fa-facebook fa-2x"></i></a></li>
+                    </li><a href='http://linkedIn.com' target='_blank'><li><i class="fab fa-linkedin fa-2x"></i></a>
+                    </li>
+        
+                </ul>
+            </div>
+            <div class='col-md-2'></div>
         </div>
     </main>
     <footer class="page-footer p-3">

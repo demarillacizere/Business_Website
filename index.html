@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href='css/styles.css' rel="stylesheet">
     <script src="/css/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-fixed">
-            <a class="navbar-brand" href="index.html" style='color:orange;'>Y E P</a>
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <a class="navbar-brand ml-5" href="/index.html">YEP</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class='nav-item'><a class="nav-link"  href='/css/index.html'>Home</a></li>
+                <ul class="nav navbar-nav m-auto">
+                    <li class='nav-item'><a class="nav-link active"  href='/index.html'>Home</a></li>
                     <li class='nav-item'><a class="nav-link"  href='/css/about.html'>About Us</a></li>
                     <li class='nav-item'><a class="nav-link" href='/css/services.html'>Our services</a></li>
                     <li class='nav-item'><a class="nav-link" href='#'>Apply</a></li>
@@ -27,40 +29,55 @@
                 </ul>
                 <form class="form-inline my-2 my-lg-0" >
                     <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-warning" type="submit">Search</button>
+                    <button class="btn" type="submit">Search</button>
                 </form>
             </div>
             
         </nav>
     </header>
-    <main class='row'>
-        <div class='header'>Youth <br>Empowerment <br>Program</div>
-        <div class='container mt-4'>
-            <div class='row'>
-                <div class='col-md-5'>
-                    <p>According to the World bank, youths account for 60% of jobless in Africa, as a result of their unemployment.These youths are being exploited and thereby increasing the rate of Africa's poverty</p>
-                </div>
-                <div class='col-md-6'>
-                    <img src='https://kenyanwallstreet.com/wp-content/uploads/2020/09/BM-Tim-BusinessConfidenceNot.jpg' width='100%'>
-                </div>
+    <main class='home'>
+        <div class='header'><div class='animated-title'><div class="text-top">
+            <div>
+              <span>The youth</span>
+              <span>Empowerment</span>
             </div>
+          </div>
+          <div class="text-bottom">
+            <div>program</div>
+          </div></div></div>
+        <div class='container-fluid'>
+            <div class='row context'>
+                <div class='col-md-2'></div>
+                <div class='col-md-3 m-5'>
+                    <h3>According to the World bank, youths account for 60% of jobless in Africa</h3>
+                </div>
+                <div class='col-md-4 text-white'><br>
+                    <div>As a result of their unemployment, these youths are being exploited and thereby increasing the rate of Africa's poverty.
+                        <br><br>The lack of required skills and knowlegde among fresh graduates is the main reason employees are not willing to employ them.  
+                    </div>
+                </div>
+                <div class='col-md-3'></div>
+            </div><br><br>
             <div class='row'>
-                <div class='col-md-5 p-2'>
-                    <h2 class='text-center'>OUR MISSION</h2><br>
+                <div  class='col-md-3'></div>
+                <div class='col-md-3 p-2'>
+                    <h3><b>Our mission</b></h3><br>
                     <p>Our mission is to promote formal and informal education alongside offering trainings in entrepreneurship,providing support and financing projects of youth to reduce youth unemployment</p>
                 </div>
-                <div class='col-md-2'></div>
-                <div class='col-md-5 p-2'>
-                    <h2 class='text-center'>OUR VISION</h2><br>
+                <div class='col-md-1'></div>
+                <div class='col-md-3 p-2'>
+                    <h3><b>Our vision</b></h3><br>
                     <p>Creating a network  of 6 million entrepreneurs in Rwanda by 2030</p>
                 </div>
+                <div class='col-md-2'></div>
             </div>
-            <section class='text-center'>
-                <h5 class='text-center'>Join  us today and start  climbing the ladder of success</h5>
-            <button class='btn btn-warning'><a href='#'>Start your application</a></button>
+            <section class='text-center m-4'>
+                <h5 class='text-center'><b>Join  us today and start  climbing the ladder of success</b></h5><br>
+            <button class='btn'><a href='#'>Start your application</a></button>
             </section>
-            <div class="mt-5 row">
-                <ul class="list-unstyled col-md-6" style='font-size: larger;'>
+            <div class="mt-5 row contact-us pt-5 pb-5">
+                <div class='col-md-2'></div>
+                <ul class="list-unstyled col-md-4" style='font-size: larger;'>
                     <li><i class="fas fa-map-marker-alt fa-2x"></i> &nbsp; Kigali, KG 20 st, Rwanda
                     </li>
             
@@ -70,7 +87,7 @@
                     <li><i class="fas fa-envelope mt-4 fa-2x"></i> &nbsp; support@youthempower.com
                     </li>
                 </ul>
-                <div class='col-md-6 social'>
+                <div class='col-md-4 social'>
                     <h4  class='font-weight-bold'>Stay connected with us</h4><br>
                     <ul class="list-unstyled" style='font-size: larger;'>
                         <li><i class="fab fa-instagram fa-2x"></i>
@@ -83,10 +100,11 @@
             
                     </ul>
                 </div>
+                <div class='col-md-2'></div>
             </div>
         </div>
     </main>
-    <footer class="page-footer p-3">
+    <footer class="page-footer p-4">
         <div class='text-center'>
             <p>Copyright &copy; 2021 | Youth Empowerment Progam <br><small><i>Made by Louise Demarillac Izere</i></small></p>
         </div>
