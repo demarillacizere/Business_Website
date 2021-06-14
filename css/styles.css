@@ -89,7 +89,7 @@ button{
     color:orange;
     font-size:50px;
 }
-.active, .btn:hover {
+.active {
     color: orange;
   }
 
